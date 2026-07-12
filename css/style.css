@@ -1,0 +1,65 @@
+/* ==========================
+   RESET CSS
+========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+header{
+    background-color: #d35400;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+/* ==========================
+   JUDUL HEADER
+========================== */
+
+header h1{
+    font-size: 32px;
+}
+
+/* ==========================
+   MENU
+========================== */
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
