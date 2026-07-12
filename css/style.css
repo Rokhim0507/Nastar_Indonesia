@@ -24,12 +24,15 @@ body{
 ========================== */
 
 header{
-    background-color: #d35400;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
+    background:#d35400;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 70px;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 /* ==========================
@@ -37,7 +40,8 @@ header{
 ========================== */
 
 header h1{
-    font-size: 32px;
+    font-size:40px;
+    font-weight:bold;
 }
 
 /* ==========================
@@ -45,8 +49,9 @@ header h1{
 ========================== */
 
 nav ul{
-    list-style: none;
-    display: flex;
+    list-style:none;
+    display:flex;
+    gap:35px;
 }
 
 nav ul li{
@@ -54,12 +59,12 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
 }
 
 nav ul li a:hover{
-    color: yellow;
+    color:#ffe082;
 }
