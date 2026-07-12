@@ -54,10 +54,6 @@ nav ul{
     gap:35px;
 }
 
-nav ul li{
-    margin-left: 25px;
-}
-
 nav ul li a{
     color:white;
     text-decoration:none;
@@ -67,4 +63,26 @@ nav ul li a{
 
 nav ul li a:hover{
     color:#ffe082;
+}
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:80px 0;
+}
+
+h2{
+    font-size:42px;
+    color:#d35400;
+    margin-bottom:20px;
+}
+
+h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:18px;
 }
